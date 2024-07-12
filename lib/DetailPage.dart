@@ -50,7 +50,7 @@ class DetailPage extends StatelessWidget {
                   children: [
                     Text(
                       "ชื่อ นามสกุล",
-                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey[700]),
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 96, 0, 85)),
                     ),
                     Text(
                       data.name,
@@ -59,7 +59,7 @@ class DetailPage extends StatelessWidget {
                     const SizedBox(height: 10),
                     Text(
                       "รหัสนักศึกษา",
-                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey[700]),
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 96, 0, 85)),
                     ),
                     Text(
                       data.studentid,
@@ -68,7 +68,7 @@ class DetailPage extends StatelessWidget {
                     const SizedBox(height: 20),
                     Text(
                       "ประวัติโดยย่อ (About me)",
-                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey[700]),
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 96, 0, 85)),
                     ),
                     Text(
                       data.about,
@@ -78,7 +78,7 @@ class DetailPage extends StatelessWidget {
                     const SizedBox(height: 20),
                     Text(
                       "Email",
-                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey[700]),
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 96, 0, 85)),
                     ),
                     Row(
                       children: [
@@ -90,7 +90,7 @@ class DetailPage extends StatelessWidget {
                     const SizedBox(height: 20),
                     Text(
                       "Social Media Link",
-                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey[700]),
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Color.fromARGB(255, 96, 0, 85)),
                     ),
                     Row(
                       children: [
